@@ -1,0 +1,46 @@
+﻿html {
+  font-family:"Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-align: center;
+}
+
+body {
+  max-width: 500px;
+  margin: 0 auto;
+  background-image:url('kuva.jpg');
+  background-size:cover;
+}
+h2 {
+	padding-top:20px;
+	padding-bottom:15px;
+	background: none;
+	width:100%;
+	font-size: 30px;
+}
+input {
+  padding-top: 30px;
+  width: 70%;
+  padding: 12px 20px;
+  font-size: 30px;
+}
+li {
+  text-align: left;
+  font-size: 35px;
+  list-style: none;
+}
+
+li:hover {
+  text-decoration: line-through;
+  cursor: pointer;
+}
+.nappi1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #e7e7e7;
+  font-size: 20px;
+  text-align: center;
+  transition-duration: 0.4s;
+  padding: 21px 10px 14px 10px;
+  margin: 0px 5px 0px 5px;
+  cursor: pointer;
+  }
+.nappi1:hover {background-color: #e7e7e7;}
